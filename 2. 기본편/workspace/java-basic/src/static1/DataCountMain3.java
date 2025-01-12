@@ -14,9 +14,9 @@ public class DataCountMain3 {
         //추가
         //인스턴스를 통한 접근
         Data3 data4 = new Data3("D");
-        System.out.println(data4.count);//권장않음 인스턴스변수로 접근한것 같음
+        System.out.println("인스턴스를 통한 접근 " + data4.count);//권장않음 인스턴스변수로 접근한것 같아보임
 
         //클래스를 통한 접근
-        System.out.println(Data3.count);
+        System.out.println("클래스를 통한 접근 " + Data3.count);
     }
 }

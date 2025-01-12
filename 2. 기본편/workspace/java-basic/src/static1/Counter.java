@@ -1,6 +1,6 @@
 package static1;
 
 public class Counter {
-    public int count;
+    public int count; //공유
 
 }
