@@ -23,7 +23,6 @@ public class ProductOrderMain {
         order3.quantity = 2;
         orders[2] = order3;
 
-
         int totalAmount = 0;
         for(ProductOrder order : orders){
             System.out.println("상품명: " + order.productName + ", 가격: " + order.price +", 수량: "+ order.quantity);

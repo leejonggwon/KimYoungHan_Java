@@ -3,22 +3,22 @@ package ref;
 public class Method2 {
     public static void main(String[] args) {
         Student student1 = createStudent("학생1", 15, 90);
-        System.out.println("student1=" +student1); //참조값
+        System.out.println("student1=" + student1); //참조값
         
         Student student2 = createStudent("학생2", 16, 80);
-        System.out.println("student2=" +student2);
+        System.out.println("student2=" + student2);
 
         printStudent((student1)); //참조값을 넘겨서 출력
         printStudent((student2));
     }
 
     static Student createStudent(String name, int age, int grade){
-        Student student = new Student(); //변수선언, 생성된다
+        Student student = new Student(); //x001
         System.out.println("student=" +student); //참조값
         student.name = name;
         student.age = age;
         student.grade = grade;
-        return student; // Student 타입을 반환
+        return student; //x001
     }
 
     static void printStudent(Student student){

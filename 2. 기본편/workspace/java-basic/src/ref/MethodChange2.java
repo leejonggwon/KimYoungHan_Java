@@ -1,8 +1,8 @@
 package ref;
 
 public class MethodChange2 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Data dataA = new Data();
         dataA.value = 10;
         System.out.println("메서드 호출 전: dataA.value = " + dataA.value);
@@ -11,7 +11,7 @@ public class MethodChange2 {
         System.out.println("메서드 호출 후: dataA.value = " + dataA.value);
     }
 
-    //참조형일때는 값이 바뀐다
+    //메서드로 참조형 데이터를 전달하면, 참조값이 복사되어 전달된다
     static void changeReference(Data dataX){
         System.out.println("dataA=" + dataX);
         dataX.value = 20;
