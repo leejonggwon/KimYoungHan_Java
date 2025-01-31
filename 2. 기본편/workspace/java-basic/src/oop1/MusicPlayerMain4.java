@@ -5,6 +5,7 @@ public class MusicPlayerMain4 {
         //음악플레이어를 사용하는 개발자
         //호출하는 클라이언트 부분
         MusicPlayer player = new MusicPlayer();
+
         //음악 플레이어 켜기
         player.on();
         //볼륨 증가

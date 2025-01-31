@@ -4,6 +4,8 @@ public class MusicPlayerMain3{
 
     public static void main(String[] args) {
         MusicPlayerData data = new MusicPlayerData();
+        //모듈화 하였음
+
         //음악 플레이어 켜기
         on(data);
         //볼륨 증가
@@ -17,6 +19,7 @@ public class MusicPlayerMain3{
         //음악 플레이어 끄기
         off(data);
     }
+
     //메서드를 추출
     static void on(MusicPlayerData data){
         data.isOn = true;

@@ -2,7 +2,7 @@ package oop1;
 
 public class ValueDataMain {
     public static void main(String[] args) {
-        ValueData valueData = new ValueData();
+        ValueData valueData = new ValueData(); //인스턴스생성함
         add(valueData);
         add(valueData);
         add(valueData);
