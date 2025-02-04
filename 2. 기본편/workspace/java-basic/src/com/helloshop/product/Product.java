@@ -1,7 +1,7 @@
 package com.helloshop.product;
-
+//제품
 public class Product {
-    String productId; //제품아이디
-    int price; //제품가격
+    String productId;
+    int price;
 
 }

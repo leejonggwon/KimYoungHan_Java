@@ -11,6 +11,7 @@ public class Order {
 
     //생성자
     //public이 붙어야 다른 패키지에서 Order를 호출 할수 있음
+    //주문하는 사용자 주문하는 대상
     public Order(User user, Product product){
         this.user = user; //주문대상
         this.product = product; //주문 상품정보

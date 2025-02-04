@@ -4,9 +4,11 @@ public class DataCountMain2 {
 
     public static void main(String[] args) {
         Counter counter = new Counter();
+
         //Ctrl+Alt+V: 변수만들어줌
         Data2 data1 = new Data2("A", counter);
         System.out.println("A count= " + counter.count);
+        //counter 인스턴스를 공용으로 사용하므로 값을 증가시킬수 있음.
 
         Data2 data2 = new Data2("B", counter);
         System.out.println("B count= " + counter.count);

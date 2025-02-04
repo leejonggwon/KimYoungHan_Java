@@ -5,7 +5,7 @@ public class Data2 {
 
     public Data2(String name, Counter counter){
         this.name = name;
-        counter.count++; //count인스턴스 공용으로 사용
+        counter.count++; //count 인스턴스 공용으로 사용함.
 
     }
 }

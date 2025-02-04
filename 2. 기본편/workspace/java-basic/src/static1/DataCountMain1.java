@@ -9,7 +9,8 @@ public class DataCountMain1 {
         System.out.println("B count= " +data2.count);
 
         Data1 data3 = new Data1("C");
-        System.out.println("C count= " +data3.count); //count값누적안됨
-
+        System.out.println("C count= " +data3.count);
+        //count값 누적안됨
+        //객체를 생성할 떄마다 Data1 인스턴스는 새로 만들어지기 때문임
     }
 }

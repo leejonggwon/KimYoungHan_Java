@@ -12,11 +12,12 @@ public class Item {
         this.quantity = quantity;
     }
 
+    //아이템 이름반환(default도 가능함)
     public String getName(){
         return name;
     }
 
-    //합계출력
+    //합계반환
     public int getTotalPrice(){
         return price * quantity;
     }

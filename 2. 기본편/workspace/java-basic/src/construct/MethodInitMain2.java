@@ -3,6 +3,7 @@ package construct;
 public class MethodInitMain2 {
     public static void main(String[] args) {
         MemberInit member1 = new MemberInit();
+        //initMember메서드를 사용해서 반복을 제거함
         initMember(member1, "user1", 15, 90);
 
         MemberInit member2 = new MemberInit();
@@ -19,5 +20,4 @@ public class MethodInitMain2 {
         member.age = age;
         member.grade = grade;
     }
-
 }

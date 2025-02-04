@@ -3,7 +3,7 @@ package memory;
 public class JavaMemoryMain2 {
     public static void main(String[] args) {
         System.out.println("main start");
-        method1(); //Alt + Enter :메서드 만듬
+        method1(); //Alt + Enter → Create method : 메서드 만듬
         System.out.println("main end");
     }
 
@@ -18,7 +18,6 @@ public class JavaMemoryMain2 {
         System.out.println("method2 start");
         System.out.println("data.value= " +  data2.getValue());
         System.out.println("method2 end"); //참조2없어짐
-
     }
 
 }

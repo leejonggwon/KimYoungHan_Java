@@ -3,9 +3,9 @@ package com.helloshop.order;
 import com.helloshop.product.Product;
 import com.helloshop.user.User;
 
+//주문하는 비즈니스 로직
 public class OrderService {
 
-    //주문하는 서비스
     public void order(){
         User user = new User(); //회원만듬
         Product product = new Product();//상품만듬

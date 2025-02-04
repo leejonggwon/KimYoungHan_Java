@@ -7,5 +7,6 @@ public class CarMain {
         Car car3  = new Car("Model Y");
 
         Car.showTotalCars(); //구매한 차량 수를 출력하는 static 메서드
+        //클래스에서 불렀으므로 static임
     }
 }

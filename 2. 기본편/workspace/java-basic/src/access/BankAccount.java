@@ -9,7 +9,7 @@ public class BankAccount {
     }
 
     // public 메서드: deposit
-    //입금
+    // 입금
     public void deposit(int amount){
         if(isAmountValid(amount)){
             balance += amount;
@@ -35,9 +35,10 @@ public class BankAccount {
     }
 
 
-    //입금금액이 제대로된 금액인지 검증
+    //입금금액이 제대로된 금액인지 검증하는 메서드
+    //내부에서만 사용함
     private boolean isAmountValid(int amount){
-        //금액이 0보다 클떄 정상적인 금액
+        //금액이 0보다 클떄 정상적인 금액이라 검증함
         return amount > 0;
     }
 }

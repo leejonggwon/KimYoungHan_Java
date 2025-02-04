@@ -2,7 +2,7 @@ package access;
 
 public class Speaker {
     //private 붙은 경우 해당 클래스 내부에서만 호출할수 있음, 외부접근 막는다
-    private int volume;
+    int volume;
 
     //생성자를 통해서 초기음량값 지정함
     Speaker(int volume) {

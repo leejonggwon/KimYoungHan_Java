@@ -9,14 +9,16 @@ public class AccessData {
     public void publicMethod(){
         System.out.println("publicMethod 호출 " + publicField);
     }
+
     void defaultMethod(){
         System.out.println("defaultMethod 호출 " + defaultField);
     }
+
     private void privateMethod(){
         System.out.println("privateMethod 호출 " + privateField);
     }
 
-    //내부호출(자기 자신에게 접근)
+    //메서드 내부호출(자기 자신에게 접근)
     public void innerAceess(){
         System.out.println("내부 호출");
         publicField = 100;
