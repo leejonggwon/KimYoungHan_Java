@@ -2,8 +2,9 @@ package static2.ex;
 
 public class MathArrayUtils {
 
+    //MathArrayUtils의 인스턴스를 생성하지 못하게 막는다
+    // → 생성자를 private으로 막아버린다.
     private MathArrayUtils(){
-        //private 인스턴스 생성을 막는다 → private으로 생성자를 막는다
     }
 
     public static int sum(int[] values){
