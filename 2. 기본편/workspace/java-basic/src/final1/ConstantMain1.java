@@ -7,7 +7,6 @@ public class ConstantMain1 {
         process(currentUserCount++);
         process(currentUserCount++);
         process(currentUserCount++);
-        process(currentUserCount++);
     }
 
     private static void process(int currentUserCount){
@@ -17,6 +16,5 @@ public class ConstantMain1 {
         }else{
             System.out.println("게임에 참여합니다.");
         }
-
     }
 }

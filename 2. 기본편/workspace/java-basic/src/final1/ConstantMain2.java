@@ -3,6 +3,7 @@ package final1;
 public class ConstantMain2 {
     public static void main(String[] args) {
         System.out.println("프로그램 최대 참여자 수: " + Constant.MAX_USERS);
+        //프로그램 최대 참여자 수는 상수를 이용한다
         int currentUserCount = 999;
         process(currentUserCount++);
         process(currentUserCount++);

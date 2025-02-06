@@ -1,6 +1,6 @@
 package extend1.ex2;
 
-//부모클래스(자식모름)
+//부모클래스(자식에 접근할수 없음)
 public class Car {
 
     public void move(){
