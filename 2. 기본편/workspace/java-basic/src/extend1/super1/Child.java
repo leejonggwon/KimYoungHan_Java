@@ -10,8 +10,8 @@ public class Child extends Parent{
     }
 
     public void call(){
-        System.out.println("this value = " + value); //this 생략가능
-        System.out.println("super value = " + super.value); //부모
+        System.out.println("this value = " + this.value); //내타입 의미함 //this 생략가능
+        System.out.println("super value = " + super.value); //부모 의미함
 
         this.hello(); //this 생략가능
         super.hello();

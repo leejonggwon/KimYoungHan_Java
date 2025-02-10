@@ -9,8 +9,11 @@ public class CastingMain1 {
         //poly.childMethod();
 
         //다운캐스팅(부모 타입 → 자식 타입)
-        Child child = (Child) poly; //x001을 자식타입으로 변경후 대입함
-        child.childMethod();
+        Child child = (Child) poly;
+        //poly를 강제로 Child로 바꿔서 대입함
+        //Child child = (Child) x001; //x001을 Child타입으로 변경후 대입함
 
+        child.childMethod();
+        child.parentMethod();
     }
 }

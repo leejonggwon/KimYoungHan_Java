@@ -4,12 +4,12 @@ public class CarMain {
     public static void main(String[] args) {
 
         ElectricCar electricCar = new ElectricCar();
-        electricCar.move(); //상속함
+        electricCar.move();
         electricCar.charge();
         electricCar.openDoor();
 
         GasCar gasCar = new GasCar();
-        gasCar.move(); //상속함
+        gasCar.move();
         gasCar.fillUp();
         gasCar.openDoor();
 
@@ -17,7 +17,5 @@ public class CarMain {
         hydrogenCar.move();
         hydrogenCar.fillHydrogen();
         hydrogenCar.openDoor();
-
-
     }
 }
