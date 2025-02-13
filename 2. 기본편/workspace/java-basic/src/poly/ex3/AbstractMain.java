@@ -2,7 +2,7 @@ package poly.ex3;
 
 public class AbstractMain {
     public static void main(String[] args) {
-        //추상클래스는 생성 불가함(컴파일오류)
+        //추상클래스는 생성이 불가함(컴파일오류)
         //AbstractAnimal animal = new AbstractAnimal();
 
         Dog dog = new Dog();
@@ -12,6 +12,7 @@ public class AbstractMain {
 
         cat.sound();
         cat.move();
+        System.out.println("-----------");
 
         soundAnimal(dog);
         soundAnimal(cat);
@@ -24,5 +25,6 @@ public class AbstractMain {
         System.out.println("동물 소리 테스트 시작");
         animal.sound();
         System.out.println("동뭏 소리 테스트 종료");
+        System.out.println("-----------");
     }
 }

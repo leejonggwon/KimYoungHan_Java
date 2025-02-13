@@ -12,10 +12,16 @@ public class CastingMain5 {
     }
 
     private static void call(Parent parent){
+        System.out.println("↓ Parent 인스턴스 아님");
         parent.parentMethod();
-        if(parent instanceof Child){ //parent는 Child의 인스턴스 입니까?
+
+        if(parent instanceof Child){
+            //Child 인스턴스로부터 생성된 parent(객체)입니까?
+            //new Child() instanceof Child
             System.out.println("Child 인스턴스 맞음");
-            Child child = (Child) parent; //다운캐스팅
+            Child child = (Child) parent;
+            //Child 인스턴스 이므로 다운캐스팅
+
             child.childMethod();
         }
     }

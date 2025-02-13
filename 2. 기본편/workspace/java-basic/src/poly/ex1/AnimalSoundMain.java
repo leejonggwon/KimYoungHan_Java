@@ -2,13 +2,13 @@ package poly.ex1;
 
 public class AnimalSoundMain {
     public static void main(String[] args) {
-        Dog dog = new Dog(); //Ctrl+Alt+V :변수만들기
+        Dog dog = new Dog(); //Ctrl+Alt+V :변수 자동으로 만들기
         Cat cat = new Cat();
         Caw caw = new Caw();
 
-        System.out.println("동물소리 테스트 시작");
+        System.out.println("동물 소리 테스트 시작");
         dog.sound();
-        System.out.println("동물소리 테스트 종료");
+        System.out.println("동물 소리 테스트 종료");
 
         soundCat(cat);
         soundCaw(caw);

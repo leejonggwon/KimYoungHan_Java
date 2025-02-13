@@ -16,13 +16,14 @@ public class AbstractMain {
         moveAnimal(dog);
         moveAnimal(cat);
         moveAnimal(caw);
-
     }
+
     //변하지 않는 부분
     private static void soundAnimal(AbstractAnimal animal) {
         System.out.println("동물 소리 테스트 시작");
         animal.sound();
         System.out.println("동뭏 소리 테스트 종료");
+        System.out.println("----------");
     }
 
     //변하지 않는 부분
@@ -30,5 +31,6 @@ public class AbstractMain {
         System.out.println("동물 이동 테스트 시작");
         animal.move();
         System.out.println("동뭏 이동 테스트 종료");
+        System.out.println("----------");
     }
 }

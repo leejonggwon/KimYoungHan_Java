@@ -3,7 +3,7 @@ package poly.ex5;
 public class InterfaceMain {
 
     public static void main(String[] args) {
-        //인터페이스 생성 불가함
+        //인터페이스는 생성 불가함
         //InterfaceAnimal interfaceAnimal = new InterfaceAnimal()
 
         Cat cat = new Cat();
@@ -20,5 +20,6 @@ public class InterfaceMain {
         System.out.println("동물 소리 테스트 시작");
         animal.sound();
         System.out.println("동물 소리 테스트 종료");
+        System.out.println("----------");
     }
 }
