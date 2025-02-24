@@ -1,6 +1,6 @@
 package poly.ex6;
 
-//상속(한개이므로 먼저함)과 구현(여러개)
+//상속(한개이므로 먼저함)과 구현(여러개 할수 있음)
 public class Bird extends AbstractAnimal implements Fly{
     @Override
     public void sound() {

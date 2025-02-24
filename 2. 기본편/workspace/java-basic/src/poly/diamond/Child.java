@@ -1,7 +1,8 @@
 package poly.diamond;
 
-//다중구현을 허용함(부모가 2개임)
+//인터페이스는 다중구현을 허용함(부모가 2개임)
 public class Child implements InterfaceA, InterfaceB{
+//Alt + enter → method implement
     @Override
     public void methodA() {
         System.out.println("Child.MethodA");
