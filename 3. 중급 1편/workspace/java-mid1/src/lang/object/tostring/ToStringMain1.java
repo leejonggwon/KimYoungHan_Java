@@ -7,10 +7,10 @@ public class ToStringMain1 {
         String string = object.toString();
 
         //toSting() 반환값 출력
-        System.out.println(string);
+        System.out.println(string); //java.lang.Object@7b23ec81
 
         //object 직접출력
-        System.out.println(object);
+        System.out.println(object); // object == object.toString()
 
 
     }

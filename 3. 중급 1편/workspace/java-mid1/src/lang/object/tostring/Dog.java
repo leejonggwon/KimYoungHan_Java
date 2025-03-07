@@ -11,7 +11,7 @@ public class Dog extends Object {
         this.age = age;
     }
 
-    //Alt + insert → toString()
+    //Alt + insert → toString() :toString을 오버라이딩
     @Override
     public String toString() {
         return "Dog{" +
