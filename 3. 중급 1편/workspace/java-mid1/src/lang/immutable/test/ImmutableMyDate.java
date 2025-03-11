@@ -13,7 +13,7 @@ public class ImmutableMyDate {
     }
 
     //새로운 객체를 만들어서 반환한다
-    //withXxx: 불변객체에서 값을 변경하는 경우 
+    //withXxx: 불변객체에서 값을 변경하는 경우
     public ImmutableMyDate withYear(int newYear){
         return new ImmutableMyDate(newYear, month, day);
     }
