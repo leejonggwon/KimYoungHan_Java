@@ -10,6 +10,7 @@ public class MyIntegerMethodMain0 {
         System.out.println("i1 = " + i1);
         System.out.println("i2 = " + i2);
         System.out.println("i3 = " + i3);
+
     }
 
     //value 값과 다른 숫자와 비교하는 메서드

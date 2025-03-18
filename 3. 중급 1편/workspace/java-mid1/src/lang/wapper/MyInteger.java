@@ -4,10 +4,12 @@ public class MyInteger {
 
     private final int value; //불변
 
+    //생성자
     public MyInteger(int value){
         this.value = value;
     }
 
+    //Getter
     public int getValue() {
         return value;
     }
@@ -23,9 +25,10 @@ public class MyInteger {
         }
     }
 
+    //숫자를 문자로 변경
     @Override
     public String toString() {
         return String.valueOf(value);
-        //숫자를 문자로 반환
+
     }
 }

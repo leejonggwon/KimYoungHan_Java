@@ -3,7 +3,7 @@ package lang.wapper;
 public class MyIntegerMethodMain1 {
     public static void main(String[] args) {
         MyInteger myInteger = new MyInteger(10);
-        
+
         //자기 자신의 메서드를 제공한다
         int i1 = myInteger.compareTo(5);
         int i2 = myInteger.compareTo(10);
