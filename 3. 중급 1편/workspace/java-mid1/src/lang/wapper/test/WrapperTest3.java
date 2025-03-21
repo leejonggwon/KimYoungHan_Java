@@ -13,7 +13,7 @@ public class WrapperTest3 {
         System.out.println("inValue = " + inValue);
 
         //int → Integer
-        Integer integer3 = Integer.valueOf(inValue);
-        System.out.println("integer3 = " + integer3);
+        Integer integer2 = Integer.valueOf(inValue);
+        System.out.println("integer2 = " + integer2);
     }
 }
