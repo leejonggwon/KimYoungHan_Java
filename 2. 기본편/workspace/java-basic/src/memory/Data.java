@@ -8,7 +8,7 @@ public class Data {
         this.value = value;
     }
 
-    //메서드만들기
+    //Getter
     public int getValue() {
         return value;
     }

@@ -7,8 +7,9 @@ public class DecoData {
 
     //static은 static에만 접근할 수 있음
     public static void staticCall(){
-        //instanceValue++; //인스턴스 변수 접근불가, compile error
-        //instanceMethod(); //인스턴스 메서드 접근불가, compile error
+
+        //instanceValue++; //인스턴스 변수 에는 접근불가, compile error 발생
+        //instanceMethod(); //인스턴스 메서드 에는 접근불가, compile error 발생
 
         staticValue++; //정적 변수 접근
         staticMethod(); //정적 메서드 접근

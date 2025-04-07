@@ -5,9 +5,11 @@ import java.time.temporal.ChronoField;
 
 public class GetTimeMain {
     public static void main(String[] args) {
+        //날짜와 시간조회하기
 
         LocalDateTime dt = LocalDateTime.of(2030, 1, 1, 13, 30, 59);
-        //연도 조회
+
+        //년 조회
         System.out.println("YEAR = " + dt.get(ChronoField.YEAR)); //2030
         //달
         System.out.println("MONTH_OF_YEAR = " + dt.get(ChronoField.MONTH_OF_YEAR)); //1
@@ -32,7 +34,7 @@ public class GetTimeMain {
         System.out.println("----------");
 
 
-        System.out.println("편의 메서드에 없음");
+        System.out.println("편의 메서드에 없는것");
         System.out.println("MINUTE_OF_DAY = " + dt.get(ChronoField.MINUTE_OF_DAY)); //810 //13시30분
         System.out.println("MINUTE_OF_DAY = " + dt.get(ChronoField.SECOND_OF_DAY)); //48659초 //13시간 30분 59초
 

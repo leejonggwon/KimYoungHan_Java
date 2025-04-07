@@ -5,6 +5,8 @@ import java.time.temporal.ChronoField;
 public class ChronoFiledMain {
 
     public static void main(String[] args) {
+
+        //ChronoFiled: 날짜와 시간의 특정 부분
         ChronoField[] values = ChronoField.values();
         for (ChronoField value : values) {
             System.out.println(value + ", range = " + value.range());
@@ -21,7 +23,6 @@ public class ChronoFiledMain {
 
         System.out.println("ChronoField.DAY_OF_MONTH.range() = "
                 + ChronoField.DAY_OF_MONTH.range()); //1 - 28/31
-
 
     }
 }
