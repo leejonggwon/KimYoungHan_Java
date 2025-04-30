@@ -18,7 +18,7 @@ public class Ex1RefMainV3 {
 
     public static void main(String[] args) {
 
-        //익명클래스로 변환
+        //익명클래스로 변환하기
         Process dice = new Process() {
             @Override
             public void run() {
@@ -28,7 +28,6 @@ public class Ex1RefMainV3 {
         };
 
         Process sum = new Process() {
-
             @Override
             public void run() {
                 for (int i = 0; i < 3; i++) {
@@ -41,5 +40,4 @@ public class Ex1RefMainV3 {
         hello(dice);
         hello(sum);
     }
-
 }

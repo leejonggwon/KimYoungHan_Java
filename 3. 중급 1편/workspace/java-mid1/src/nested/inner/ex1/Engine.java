@@ -1,6 +1,6 @@
 package nested.inner.ex1;
 
-// Engine은 Car에서만 사용
+// Car에서만 사용
 public class Engine {
 
     private Car car;
@@ -8,6 +8,7 @@ public class Engine {
     //엔진은 자기를 장착한 자동차의 정보를 확인할 수 있음
 
     //생성자
+    //어떤 자동차 소속된 엔진인지
     public Engine(Car car) {
         this.car = car;
     }

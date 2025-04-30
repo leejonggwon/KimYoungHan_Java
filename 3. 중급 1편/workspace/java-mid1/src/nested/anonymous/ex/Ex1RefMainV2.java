@@ -1,7 +1,7 @@
 package nested.anonymous.ex;
 
 import java.util.Random;
-
+//지역클래스로 만들기
 public class Ex1RefMainV2 {
 
     public static void hello(Process process) {
@@ -16,7 +16,7 @@ public class Ex1RefMainV2 {
     }
 
     public static void main(String[] args) {
-
+        //main에서 Dice, Sum을 정의하고 생성하고 실행한다
         class Dice implements Process{
 
             @Override
@@ -42,6 +42,5 @@ public class Ex1RefMainV2 {
         System.out.println("Hello 실행");
         hello(dice);
         hello(sum);
-
     }
 }

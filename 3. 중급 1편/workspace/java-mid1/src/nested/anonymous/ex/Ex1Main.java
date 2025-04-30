@@ -33,6 +33,4 @@ public class Ex1Main {
         helloDice();
         helloSum();
     }
-
-
 }

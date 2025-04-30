@@ -6,13 +6,12 @@ public class AnonymousOuter {
 
     private int outInstanceVar = 3;
 
-
     public void process(int paramVar){
 
         int localVar = 1;
 
         //익명 클래스는 클래스의 본문을 정의하면서 동시에 생성한다
-        //Printer를 상속(구현) 하면서 바로 생성하는 것이다
+        //new 다음에 상속받으면서 구현 할 부모타입을 입력한다
         Printer printer = new Printer() {
             int value = 0;
 

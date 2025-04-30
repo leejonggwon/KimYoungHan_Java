@@ -18,7 +18,7 @@ public class Ex1RefMainV5 {
     public static void main(String[] args) {
 
         System.out.println("Hello 실행");
-        //람다로 변경하기
+        //람다식으로 변경하기(Alt + Enter → Replace with lambda)
         hello(() -> {
             int randomValue = new Random().nextInt(6) + 1;
             System.out.println("주사위 = " + randomValue);

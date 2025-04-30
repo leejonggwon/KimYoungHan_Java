@@ -10,7 +10,7 @@ public class Car {
     public Car(String model, int chargeLevel) {
         this.model = model;
         this.chargeLevel = chargeLevel;
-        this.engine = new Engine(this); //Engine을 만들때, 나의 자동차에 대한 정보를 넘겨야한다
+        this.engine = new Engine(this); //Engine을 만들때, 자동차(현재 객체 자신)에 대한 정보를 넘겨야한다
     }
 
     //Engine에서만 사용하는 메서드

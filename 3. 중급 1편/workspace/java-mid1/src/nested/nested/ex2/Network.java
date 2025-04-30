@@ -3,12 +3,12 @@ package nested.nested.ex2;
 public class Network {
 
     public void sendMessage(String text){
-
         NetworkMessage networkMessage = new NetworkMessage(text);
         networkMessage.print();
     }
 
     //NetworkMessage 클래스를 Network 클래스 안에 중첩해서 만들었다
+    //private 설정했다. 외부에서 NetworkMessage에 접근할수 없다
     private static class NetworkMessage {
 
         private  String content;

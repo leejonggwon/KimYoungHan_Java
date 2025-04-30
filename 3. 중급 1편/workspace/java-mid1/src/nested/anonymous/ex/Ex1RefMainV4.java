@@ -16,9 +16,9 @@ public class Ex1RefMainV4 {
     }
 
     public static void main(String[] args) {
-
         System.out.println("Hello 실행");
 
+        //참조값을 변수에 담아줄 필요없이, 인수에 발호 전달할 수 있다
         hello(new Process() {
             @Override
             public void run() {
@@ -38,3 +38,8 @@ public class Ex1RefMainV4 {
 
     }
 }
+
+
+
+
+
