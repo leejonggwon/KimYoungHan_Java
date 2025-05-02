@@ -41,7 +41,7 @@ public class NetworkClientV1 {
     }
 
     public void initError(String data){
-        if (data.contains("error1")){ //전송할 문자에 "error1"이라는 단어가 있으면 connectError = true로 활성화한다
+        if (data.contains("error1")){ //"error1"을 추가하면 connectError 가 true 된다
             connectError = true;
         }
         if(data.contains("error2")){
