@@ -3,24 +3,24 @@ package collection.set;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class MyHashSetV2 {
+public class MyHashSetV3<E> implements MySet<E> {
 
     static final int DEFAULT_INITIAL_CAPACITY = 16;
 
     //배열선언 //Object 이므로 모든 타입을 넣을 수 있다
-    private LinkedList<Object>[] buckets;
+    private LinkedList<E>[] buckets;
 
     private int size = 0; //전체데이터
     private int capacity = DEFAULT_INITIAL_CAPACITY;
 
 
     //생성자
-    public MyHashSetV2() {
+    public MyHashSetV3() {
         initBuckets();
     }
 
     //capacity 값을 받는 생성자
-    public MyHashSetV2(int capacity) {
+    public MyHashSetV3(int capacity) {
         this.capacity = capacity;
         initBuckets();
     }
@@ -36,9 +36,9 @@ public class MyHashSetV2 {
 
 
     //값을 추가
-    public boolean add(Object value){
+    public boolean add(E value){
         int hashIndex = hashIndex(value);
-        LinkedList<Object> bucket = buckets[hashIndex];
+        LinkedList<E> bucket = buckets[hashIndex];
         if (bucket.contains(value)){
             return false;
         }
@@ -49,17 +49,17 @@ public class MyHashSetV2 {
 
 
     //포함되어 있는지 확인하는 검색기능
-    public boolean contains(Object searchValue){
+    public boolean contains(E searchValue){
         int hashIndex = hashIndex(searchValue);         //O(1)
-        LinkedList<Object> bucket = buckets[hashIndex]; //O(1)
+        LinkedList<E> bucket = buckets[hashIndex]; //O(1)
         return bucket.contains(searchValue);            //O(n) → 0(1)
     }
 
 
     //특정값 삭제
-    public boolean remove(Object value){
+    public boolean remove(E value){
         int hashIndex = hashIndex(value);
-        LinkedList<Object> bucket = buckets[hashIndex];
+        LinkedList<E> bucket = buckets[hashIndex];
         boolean result = bucket.remove(value); //Object 타입이 들어오면 그대로 지울수 있다
         if(result){
             size--;
@@ -71,7 +71,7 @@ public class MyHashSetV2 {
 
 
     //hashIndex 계산
-    private int hashIndex(Object value){
+    private int hashIndex(E value){
         return Math.abs(value.hashCode()) % capacity; //Math.abs() 절대값으로 해야하므로
     }
 
@@ -84,7 +84,7 @@ public class MyHashSetV2 {
 
     @Override
     public String toString() {
-        return "MyHashSetV2{" +
+        return "MyHashSetV3{" +
                 "buckets=" + Arrays.toString(buckets) +
                 ", size=" + size +
                 ", capacity=" + capacity +

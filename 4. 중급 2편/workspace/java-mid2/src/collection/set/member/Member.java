@@ -14,6 +14,8 @@ public class Member {
         return id;
     }
 
+
+    //equals() and hashCode()
     //객체끼리 비교할 때, ‘id 값이 같으면 같은 회원이다’ 라고 규칙을 정하기 위해
     @Override
     public boolean equals(Object o) {
@@ -23,10 +25,11 @@ public class Member {
         return Objects.equals(id, member.id);
     }
 
+
     //hashCode: 자바는 Object에 있는 hashCode 메서드로 모든 객체가 자신만의 해시 코드를 표현할 수 있는 기능을 제공한다.
     @Override
     public int hashCode() {
-        return Objects.hash(id); //해시코드를 만드는 유틸리티
+        return Objects.hash(id); //해시코드를 만드는 유틸리티, 없으면 참조값으로 hashCode가 만들어진다
     }
 
     @Override
