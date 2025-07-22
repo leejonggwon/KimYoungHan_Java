@@ -12,7 +12,7 @@ public class UniqueNamesTest2 {
         Integer[] inputArr =  {30, 20, 20, 10, 10};
         //List<Integer> list = List.of(inputArr); //배열을 기반으로 list를 만들수 있다
 
-        //중복을 제거하는데 입력한 순서대로
+        //중복을 제거하는데 입력한 순서대로 출력해라
         Set<Integer> set = new LinkedHashSet<>(List.of(inputArr)); //생성자에 List를 전달 할 수 있다 //set에 데이터를 넣는방법
 
         List<Integer> list1 = Arrays.asList(1, 2, 3);

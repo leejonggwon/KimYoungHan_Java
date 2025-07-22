@@ -10,7 +10,8 @@ public class SetOperationsTest {
         Set<Integer> set2 = new HashSet<>(List.of(3, 4, 5, 6, 7));
 
         //합집합
-        Set<Integer> union = new HashSet<>(set1); //Set 을 생성할때 Collection 을 넣을 수 있다
+        Set<Integer> union = new HashSet<>(); //Set 을 생성할때 Collection 을 넣을 수 있다
+        union.addAll(set1);
         union.addAll(set2);
         System.out.println("합집합: " + union);
 
