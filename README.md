@@ -22,6 +22,7 @@
 * 강의 커리큘럼
 * Object 클래스, 불변 객체, String 클래스, 래퍼, Class 클래스, 열거형 - ENUM, 날짜와 시간, 중첩클래스 - 내부클래스1, 중첩클래스 - 내부클래스2, 예외처리1 - 이론, 예외처리2 - 실습
  <br>
+ <img width="1047" height="663" alt="middle1" src="https://github.com/user-attachments/assets/c2994937-0e45-4e77-a9ad-287449dcd6b4" />
  <br>
 
   ## ⭐ 김영한의 실전 자바 - 중급 2편 
