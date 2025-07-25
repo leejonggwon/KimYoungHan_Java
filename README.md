@@ -12,7 +12,7 @@
 * 강의시간: 16시간 51분
 * 강의 커리큘럼
 * 클래스와 데이터, 기본형과 참조형, 객체 지향 프로그래밍, 생성자, 패키지, 접근 제어자, 자바 메모리 구조와 static, final, 상속, 다형성1, 다형성2, 다형성과 설계
- <br>
+
 <img width="1026" height="655" alt="basic1" src="https://github.com/user-attachments/assets/7ec4ce4f-272f-45f8-9c05-c868f295ecbb" />
  <br>
   
@@ -21,7 +21,7 @@
 * 강의시간: 19시간 20분
 * 강의 커리큘럼
 * Object 클래스, 불변 객체, String 클래스, 래퍼, Class 클래스, 열거형 - ENUM, 날짜와 시간, 중첩클래스 - 내부클래스1, 중첩클래스 - 내부클래스2, 예외처리1 - 이론, 예외처리2 - 실습
- <br>
+  
  <img width="1047" height="663" alt="middle1" src="https://github.com/user-attachments/assets/c2994937-0e45-4e77-a9ad-287449dcd6b4" />
  <br>
 
