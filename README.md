@@ -13,7 +13,7 @@
 * 강의 커리큘럼
 * 클래스와 데이터, 기본형과 참조형, 객체 지향 프로그래밍, 생성자, 패키지, 접근 제어자, 자바 메모리 구조와 static, final, 상속, 다형성1, 다형성2, 다형성과 설계
  <br>
- [certificate (1).pdf](https://github.com/user-attachments/files/21421352/certificate.1.pdf)
+<img width="1026" height="655" alt="basic1" src="https://github.com/user-attachments/assets/7ec4ce4f-272f-45f8-9c05-c868f295ecbb" />
  <br>
   
 ## ⭐ 김영한의 실전 자바 - 중급 1편 
