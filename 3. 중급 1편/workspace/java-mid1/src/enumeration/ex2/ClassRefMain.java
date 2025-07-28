@@ -1,6 +1,7 @@
 package enumeration.ex2;
 
 public class ClassRefMain {
+
     public static void main(String[] args) {
 
         //getClass(): 클래스 정보를 반환하는 매서드
